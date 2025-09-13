@@ -21,7 +21,7 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
 
     useEffect(() => {
         if (params.id) {
-            async function fetchProduct() {
+            const fetchProduct = async () => {
                 try {
                     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/products/${params.id}`);
                     if (!res.ok) {
