@@ -1,0 +1,115 @@
+{
+  "categories": [
+    {
+      "id": "laptops",
+      "name": "Laptops"
+    },
+    {
+      "id": "perifericos",
+      "name": "Periféricos"
+    },
+    {
+      "id": "accesorios-gamer",
+      "name": "Accesorios Gamer"
+    },
+    {
+      "id": "monitores",
+      "name": "Monitores"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop Gamer Pro X1",
+      "category": "laptops",
+      "price": 1499.99,
+      "description": "Potencia extrema para gaming y creación de contenido. Equipada con procesador de última generación, gráficos NVIDIA RTX y pantalla de 144Hz.",
+      "image": "/images/products/laptop-gamer.png"
+    },
+    {
+      "id": 2,
+      "name": "Teclado Mecánico RGB TKL",
+      "category": "perifericos",
+      "price": 89.99,
+      "description": "Teclado mecánico Tenkeyless (TKL) con switches rojos, retroiluminación RGB personalizable y construcción de aluminio premium.",
+      "image": "/images/products/keyboard.png"
+    },
+    {
+      "id": 3,
+      "name": "Monitor Curvo UltraWide 34\"",
+      "category": "monitores",
+      "price": 449.5,
+      "description": "Sumérgete en tus juegos y trabajo con este monitor curvo UltraWide QHD. Ofrece colores vibrantes y un campo de visión expansivo.",
+      "image": "/images/products/monitor-curvo.png"
+    },
+    {
+      "id": 4,
+      "name": "Audífonos Gamer Inalámbricos 7.1",
+      "category": "accesorios-gamer",
+      "price": 129.99,
+      "description": "Sonido envolvente 7.1 para una inmersión total. Micrófono con cancelación de ruido y hasta 20 horas de batería.",
+      "image": "/images/products/headphones.png"
+    },
+    {
+      "id": 5,
+      "name": "Mouse Gamer Ergonómico",
+      "category": "perifericos",
+      "price": 49.99,
+      "description": "Diseño ergonómico para largas sesiones de juego, sensor óptico de 16,000 DPI y 8 botones programables.",
+      "image": "/images/products/mouse.png"
+    },
+    {
+      "id": 6,
+      "name": "MacBook Air M3",
+      "category": "laptops",
+      "price": 1299,
+      "description": "El portátil más popular de Apple, ahora con el poder del chip M3. Rendimiento y eficiencia increíbles en un diseño ultraligero.",
+      "image": "/images/products/macbook-air.png"
+    },
+    {
+      "id": 7,
+      "name": "Webcam 4K Pro",
+      "category": "perifericos",
+      "price": 199.99,
+      "description": "Calidad de video profesional para streaming y videoconferencias. Sensor 4K HDR y enfoque automático inteligente.",
+      "image": "/images/products/webcam.png"
+    },
+    {
+      "id": 8,
+      "name": "Silla Gamer Ergonómica",
+      "category": "accesorios-gamer",
+      "price": 299.99,
+      "description": "Comodidad y soporte para maratones de juego. Múltiples puntos de ajuste, cojines lumbares y cervicales.",
+      "image": "/images/products/silla-gamer.png"
+    },
+    {
+      "id": 9,
+      "name": "Monitor 4K 27\"",
+      "category": "monitores",
+      "price": 329,
+      "description": "Resolución 4K UHD para una claridad de imagen impresionante. Ideal para diseño gráfico, edición de video y gaming.",
+      "image": "/images/products/monitor-4k.png"
+    },
+    {
+      "id": 10,
+      "name": "Micrófono de Condensador USB",
+      "category": "perifericos",
+      "price": 99.99,
+      "description": "Calidad de estudio para tus grabaciones, podcasts y streams. Conexión plug-and-play y patrón polar cardioide.",
+      "image": "/images/products/microphone.png"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "user@example.com",
+      "password": "password123",
+      "cart": [
+        {
+          "productId": 2,
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}
