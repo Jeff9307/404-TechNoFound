@@ -72,3 +72,5 @@ La tienda estará disponible en `http://localhost:3000`.
 - `npm run build`: Compila la aplicación para producción.
 - `npm run start`: Inicia un servidor de producción.
 - `npm run lint`: Ejecuta el linter de Next.js.
+
+
